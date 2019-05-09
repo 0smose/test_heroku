@@ -80,6 +80,4 @@ test:
 #
 production:
   <<: *default
-  database: test_active_storage_production
-  username: test_active_storage
-  password: <%= ENV['TEST_ACTIVE_STORAGE_DATABASE_PASSWORD'] %>
+  database: test_active_storage_development
